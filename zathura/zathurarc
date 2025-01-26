@@ -53,16 +53,16 @@ set statusbar-v-padding         7
 # set highlight-color             "#bdae93" # light
 # set highlight-active-color      "#d5c4a1" # dark
 
-set default-bg                  "#1d2021" # bg
-set default-fg                  "#3c3836" # fg
+#set default-bg                  "#1d2021" # bg
+#set default-fg                  "#3c3836" # fg
 set render-loading              true
 set render-loading-bg           "#ebdbb2" # bg
 set render-loading-fg           "#3c3836" # fg
 
 # Recolor book content's color
-set recolor-lightcolor          "#ebdbb2" # bg
+#set recolor-lightcolor          "#ebdbb2" # bg
 set recolor-darkcolor           "#3c3836" # fg
-set recolor                     true
+#set recolor                     true
 # set recolor-keephue             true      # keep original color
 # set recolor-reverse-video       "true"
 

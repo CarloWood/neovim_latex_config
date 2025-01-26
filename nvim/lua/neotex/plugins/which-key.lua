@@ -99,7 +99,7 @@ return {
         c = { "<cmd>:VimtexClearCache All<CR>", "clear vimtex" },
         e = { "<cmd>VimtexErrors<CR>", "error report" },
         f = { "<cmd>lua vim.lsp.buf.format()<CR>", "format" },
-        g = { "<cmd>e ~/.config/nvim/templates/Glossary.tex<CR>", "edit glossary" },
+        g = { "<cmd>e ~/.config/nvim_latex/templates/Glossary.tex<CR>", "edit glossary" },
         -- h = { "<cmd>lua _HTOP_TOGGLE()<CR>", "htop" },
         h = { "<cmd>LocalHighlightToggle<CR>", "highlight" },
         k = { "<cmd>VimtexClean<CR>", "kill aux" },
@@ -117,7 +117,7 @@ return {
         w = { "<cmd>VimtexCountWords!<CR>", "word count" },
         -- w = { "<cmd>TermExec cmd='pandoc %:p -o %:p:r.docx'<CR>" , "word"},
         -- s = { "<cmd>lua function() require('cmp_vimtex.search').search_menu() end<CR>"           , "search citations" },
-        s = { "<cmd>e ~/.config/nvim/snippets/tex.snippets<CR>", "snippets edit" },
+        s = { "<cmd>e ~/.config/nvim_latex/snippets/tex.snippets<CR>", "snippets edit" },
         S = { "<cmd>TermExec cmd='ssh brastmck@eofe10.mit.edu'<CR>", "ssh" },
       },
       f = {
@@ -264,35 +264,35 @@ return {
       t = {
         name = "TEMPLATES",
         p = {
-          "<cmd>read ~/.config/nvim/templates/PhilPaper.tex<CR>",
+          "<cmd>read ~/.config/nvim_latex/templates/PhilPaper.tex<CR>",
           "PhilPaper.tex",
         },
         l = {
-          "<cmd>read ~/.config/nvim/templates/Letter.tex<CR>",
+          "<cmd>read ~/.config/nvim_latex/templates/Letter.tex<CR>",
           "Letter.tex",
         },
         g = {
-          "<cmd>read ~/.config/nvim/templates/Glossary.tex<CR>",
+          "<cmd>read ~/.config/nvim_latex/templates/Glossary.tex<CR>",
           "Glossary.tex",
         },
         h = {
-          "<cmd>read ~/.config/nvim/templates/HandOut.tex<CR>",
+          "<cmd>read ~/.config/nvim_latex/templates/HandOut.tex<CR>",
           "HandOut.tex",
         },
         b = {
-          "<cmd>read ~/.config/nvim/templates/PhilBeamer.tex<CR>",
+          "<cmd>read ~/.config/nvim_latex/templates/PhilBeamer.tex<CR>",
           "PhilBeamer.tex",
         },
         s = {
-          "<cmd>read ~/.config/nvim/templates/SubFile.tex<CR>",
+          "<cmd>read ~/.config/nvim_latex/templates/SubFile.tex<CR>",
           "SubFile.tex",
         },
         r = {
-          "<cmd>read ~/.config/nvim/templates/Root.tex<CR>",
+          "<cmd>read ~/.config/nvim_latex/templates/Root.tex<CR>",
           "Root.tex",
         },
         m = {
-          "<cmd>read ~/.config/nvim/templates/MultipleAnswer.tex<CR>",
+          "<cmd>read ~/.config/nvim_latex/templates/MultipleAnswer.tex<CR>",
           "MultipleAnswer.tex",
         },
       },

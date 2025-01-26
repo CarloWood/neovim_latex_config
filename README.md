@@ -680,6 +680,7 @@ sudo pacman -S lua-language-server
 sudo pacman -S wget
 sudo pacman -S xsel
 sudo pacman -S neovim-remote
+sudo pacman -S lua51-jsregexp
 ```
 
 Open NeoVim by running `nvim` in the terminal and run the following command:
@@ -750,31 +751,38 @@ sudo pacman -S okular
 If you want to use a different pdf-viewer than Okular, replace 'okular' in the following file with your desired pdf-viewer:
 
 ```
-nvim ~/.config/nvim/plug-config/vimtex.vim
+nvim ~/.config/nvim_latex/plug-config/vimtex.vim
 ```
 
 Alternatively, you could replace 'okular' with 'zathura'.
 
 ## [Configuration](https://github.com/benbrastmckie/.config)
 
-I recommend forking my config, copying the SSH address by clicking the `Code` button in your fork of the config.
-Alternatively, if you don't want to fork, click the `Code` button in my repo.
-Now you are ready to open the terminal back up and run the following commands making the appropriate substitution:
+I recommend forking the repository as you might need personal adjustments.
+Then make a clone of that:
 
 ```
-cd ~/.config
-git init
-git remote add origin YOUR-OR-MY-ADDRESS
-git remote -v
-git pull origin master
-ls -a
+export INSTALL_DIR="/path_to_where_you_want_this"
+cd $INSTALL_DIR
+git clone YOUR-REMOTE-URI
 ```
 
-Run NeoVim to install the plugins:
+Then add a symbolic link to this repository:
+```
+ln -s $INSTALL_DIR/neovim_latex_config/nvim ~/.config/nvim_latex
+ln -s $INSTALL_DIR/neovim_latex_config/zathura ~/.config/zathura
+```
+
+This way the repository doesn't overwrite anything in your ~/.config
+(assuming you didn't already have a configuration for zathura)
+and you can keep using nvim the way you did before.
+
+To run nvim using this repository, run:
 
 ```
-nvim
+NVIM_APPNAME=nvim_latex nvim
 ```
+which will then install all the plugins using `~/.config/nvim_latex`.
 
 After the plugins finish installing, exit and reopen NeoVim, running:
 

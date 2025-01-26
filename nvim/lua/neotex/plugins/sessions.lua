@@ -12,8 +12,8 @@ return {
     require('session_manager').setup({
       -- sessions_dir = Path:new(vim.fn.stdpath('data'), 'sessions'), -- The directory where the session files will be saved.
       sessions_dir = Path:new(vim.fn.stdpath('config'), 'sessions'), -- The directory where the session files will be saved.
-      -- session_filename_to_dir =  '~/.config/nvim/sessions/', -- Function that replaces symbols into separators and colons to transform filename into a session directory.
-      -- dir_to_session_filename = '~/.config/nvim/sessions/', -- Function that replaces separators and colons into special symbols to transform session directory into a filename. Should use `vim.uv.cwd()` if the passed `dir` is `nil`.
+      -- session_filename_to_dir =  '~/.config/nvim_latex/sessions/', -- Function that replaces symbols into separators and colons to transform filename into a session directory.
+      -- dir_to_session_filename = '~/.config/nvim_latex/sessions/', -- Function that replaces separators and colons into special symbols to transform session directory into a filename. Should use `vim.uv.cwd()` if the passed `dir` is `nil`.
       -- path_replacer = '__', -- The character to which the path separator will be replaced for session files.
       -- colon_replacer = '++', -- The character to which the colon symbol will be replaced for session files.
       autoload_mode = config.AutoloadMode.Disabled, -- Define what to do when Neovim is started without arguments. See "Autoload mode" section below.

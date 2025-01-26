@@ -37,7 +37,7 @@ Rather, what follows is a minimal number of extensions to the functionality prov
 # Mappings
 
 Which-Key is triggered by the space bar, and will bring up a range of key-bindings with associated names.
-Accordingly, I will focus attention on the mappings included in `~/.config/nvim/keys/mappings.vim`, though I will mention some of the Which-Key bindings in discussing plugins in the following section.
+Accordingly, I will focus attention on the mappings included in `~/.config/nvim_latex/keys/mappings.vim`, though I will mention some of the Which-Key bindings in discussing plugins in the following section.
 
 ## _Line Movements_ 
 
@@ -82,7 +82,7 @@ Accordingly, I will focus attention on the mappings included in `~/.config/nvim/
 
 # Plugins
 
-In what follows, I will discuss a number of key plugins included in `~/.config/nvim/vim-plug/plugins.vim` which are of considerable use for writing LaTeX documents.
+In what follows, I will discuss a number of key plugins included in `~/.config/nvim_latex/vim-plug/plugins.vim` which are of considerable use for writing LaTeX documents.
 
 ## _File Management_
 
@@ -99,8 +99,8 @@ In what follows, I will discuss a number of key plugins included in `~/.config/n
 ## _Projects and Templates_
 
 - **Projects**: use `<space>ms` to create a new project, `<space>ml` to switch to a different project, and `<space>md` to delete a project.
-- **Templates**: use `<space>t` to choose from a variety of templates in the `~/.config/nvim/templates` directory.
-  - To add new templates, add the relevant file to `~/.config/nvim/templates`, customising `~/.config/nvim/keys/which-key.vim`.
+- **Templates**: use `<space>t` to choose from a variety of templates in the `~/.config/nvim_latex/templates` directory.
+  - To add new templates, add the relevant file to `~/.config/nvim_latex/templates`, customising `~/.config/nvim_latex/keys/which-key.vim`.
 
 ## _Autocomplete_
 

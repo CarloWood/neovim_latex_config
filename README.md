@@ -45,7 +45,7 @@ If you use Windows and are interested in troubleshooting the installation proces
 ## A complete configuration for writing LaTeX documents with [NeoVim](https://neovim.io).
 
 The following sections provide installation instructions for Mac, Arch, and Debian operating systems.
-In the [CheatSheet.md](https://github.com/benbrastmckie/.config/blob/master/CheatSheet.md) you can find all of the key-bindings that I have added to NeoVim for writing LaTeX documents, where the [LearningGit.md](https://github.com/benbrastmckie/.config/blob/master/LearningGit.md) provides resources for integrating Git into your workflow.
+In the [CheatSheet.md](https://github.com/CarloWood/neovim_latex_config/blob/master/CheatSheet.md) you can find all of the key-bindings that I have added to NeoVim for writing LaTeX documents, where the [LearningGit.md](https://github.com/benbrastmckie/.config/blob/master/LearningGit.md) provides resources for integrating Git into your workflow.
 You can also find video series which: (1) demonstrates the [features](https://www.youtube.com/watch?v=_Ct2S65kpjQ&list=PLBYZ1xfnKeDRhCoaM4bTFrjCl3NKDBvqk) included in the present configuration; (2) walks through the [installation process](https://www.youtube.com/watch?v=ELdTohuzTnA&list=PLBYZ1xfnKeDQxis9D7HFFygHOFVTQ0BFn); (3) explains how to [modify the configuration](https://www.youtube.com/watch?v=oyEPY6xFhs0&list=PLBYZ1xfnKeDT0LWxQQma8Yh-IfpmQ7UHr) (OLD) for your own needs; and (4) describes how to [use Git](https://www.youtube.com/watch?v=GIJG4QtZBYI&list=PLBYZ1xfnKeDQYYXIhKKrXhWOaSphnn9ZL) to track changes and collaborate with others.
 
 ## Table of Contents
@@ -252,7 +252,7 @@ This may involve doing some research if errors persist.
 
 You are now ready to pull down the configuration files.
 
-## [Configuration](https://github.com/benbrastmckie/.config)
+## [Configuration](https://github.com/CarloWood/neovim_latex_config)
 
 I recommend forking my config so that you have your own version that you can customise for yourself.
 To do so you will need to make a GitHub account if you don't have one already.
@@ -471,7 +471,7 @@ Reopen Alacritty to see if Fish is now the default shell.
 You are now read use NeoVim in Kitty or Alacritty+Tmux along with the Fish shell.
 That is, to open NeoVim, open Kitty/Alacritty and type `nvim`.
 
-See the [Cheat Sheet](https://github.com/benbrastmckie/.config/blob/master/CheatSheet.md) for the Tmux window commands.
+See the [Cheat Sheet](https://github.com/CarloWood/neovim_latex_config/blob/master/CheatSheet.md) for the Tmux window commands.
 
 ## [Git](https://git-scm.com/) (Optional)
 
@@ -638,7 +638,7 @@ For more help, see these [video](https://www.youtube.com/watch?v=kHkQnuYzwoo) in
 <!-- brew install gh -->
 <!-- ``` -->
 <!---->
-<!-- For further information, see the section **GitHub Cli** in the [Cheat Sheet](https://github.com/benbrastmckie/.config/blob/master/CheatSheet.md) as well as the [GitHub Cli Repo](https://github.com/cli/cli). -->
+<!-- For further information, see the section **GitHub Cli** in the [Cheat Sheet](https://github.com/CarloWood/neovim_latex_config/blob/master/CheatSheet.md) as well as the [GitHub Cli Repo](https://github.com/cli/cli). -->
 
 # Arch Linux Installation
 
@@ -756,7 +756,7 @@ nvim ~/.config/nvim_latex/plug-config/vimtex.vim
 
 Alternatively, you could replace 'okular' with 'zathura'.
 
-## [Configuration](https://github.com/benbrastmckie/.config)
+## [Configuration](https://github.com/CarloWood/neovim_latex_config)
 
 I recommend forking the repository as you might need personal adjustments.
 Then make a clone of that:
@@ -1068,7 +1068,7 @@ For more help, see these [video](https://www.youtube.com/watch?v=kHkQnuYzwoo) in
 <!-- gh config set editor nvim -->
 <!-- ``` -->
 <!---->
-<!-- For further information, see the section **GitHub Cli** in the [Cheat Sheet](https://github.com/benbrastmckie/.config/blob/master/CheatSheet.md) as well as the [GitHub Cli Repo](https://github.com/cli/cli). -->
+<!-- For further information, see the section **GitHub Cli** in the [Cheat Sheet](https://github.com/CarloWood/neovim_latex_config/blob/master/CheatSheet.md) as well as the [GitHub Cli Repo](https://github.com/cli/cli). -->
 
 # Debian Linux Installation
 
@@ -1240,7 +1240,7 @@ nvim ~/.config/nvim/plug-config/vimtex.vim
 
 Alternatively, you could replace 'okular' with 'zathura'.
 
-## [Configuration](https://github.com/benbrastmckie/.config)
+## [Configuration](https://github.com/CarloWood/neovim_latex_config)
 
 I recommend forking my config, coppying the SSH address by clicking the `Code` button in your fork of the config.
 Alternatively, if you don't want to fork, click the `Code` button in my repo.
@@ -1553,7 +1553,7 @@ For more help, see these [video](https://www.youtube.com/watch?v=kHkQnuYzwoo) in
 <!-- gh config set editor nvim -->
 <!-- ``` -->
 <!---->
-<!-- For further information, see the section **GitHub Cli** in the [Cheat Sheet](https://github.com/benbrastmckie/.config/blob/master/CheatSheet.md) as well as the [GitHub Cli Repo](https://github.com/cli/cli). -->
+<!-- For further information, see the section **GitHub Cli** in the [Cheat Sheet](https://github.com/CarloWood/neovim_latex_config/blob/master/CheatSheet.md) as well as the [GitHub Cli Repo](https://github.com/cli/cli). -->
 
 # Remapping Keys
 
